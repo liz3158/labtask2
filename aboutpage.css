@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+body{
+    background-color:blanchedalmond;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color:navy;
+}
+
+.tablein{
+    width: 1100;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 130px;
+    margin-left: 700px;
+}
+
+.taskbar{
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.video{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration:none ;
+}
+
+
+.tablein{
+    text-align: center;
+}
+
+.about{
+    width: 500px;
+    height: 300px;
+}
+
