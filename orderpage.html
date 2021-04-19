@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Order Page</title>
+        <link href="order.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body background="img/back4.jpg" >
+        <img class="logo" src="img/logo.png">
+        <div class="menu">
+            <table>
+                <tr>
+                    <td class="taskbar"><a href="home.html"><font color="white">Home</font></a></td>
+                    <td class="taskbar"><a href="shoppingcart.html"><font color="white">Shop</font></a></td>
+                    <td class="taskbar"><a href="aboutpage.html"><font color="white">About</font></a></td>
+                    <td class="taskbar"><a href="testimonial.html"><font color="white">Author</font></a></td>
+                </tr>
+            </table>
+            <hr>
+            <br>
+        </div>
+        
+        <table class="table-order" cellpadding="10" >
+            <tr>
+                <td colspan="2"> <div id="demotext"><h1>ORDER FORM</h1></div></td>
+            </tr>
+            <tr>
+                <td colspan="2"><font color="white">Please fill ini your order in the table below.</font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Name (First name)</font></td>
+                <td><font><input type="text" name="first name"></font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Name (Last name)</font></td>
+                <td><font><input type="text" name="last name"></font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Date Order The Phone</font></td>
+                <td><font><input type="date"></font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Email</font></td>
+                <td><font><input type="email"></font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Phone</font></td>
+                <td><font><input type="tel"></font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Shipping Address</font></td>
+                <td><font><input type="text"></font></td>
+            </tr>
+            <tr>
+                <td><font color="white"> Select Your Product</font></td>
+                <td><input list="phone"></td>
+                <datalist id="phone">
+                    <option value="Currypop">
+                    <option value="Chicken Satay">
+                  </datalist>
+            </tr>
+            <tr>
+                <td colspan="2"><font color="white">After you submit your order, you will receive the email for<br> more information for the payment.<br>If have any problems occur, please contact to our staff<br>tel : (086-333158)</font></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit"></td>
+            </tr>
+    
+        </table>
+    </body>
+</html>

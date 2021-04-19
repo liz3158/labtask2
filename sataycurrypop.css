@@ -1,0 +1,35 @@
+
+
+.button{
+    border:orangered;
+    margin: 0 auto;
+    background-color:blanchedalmond;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color:navy;
+}
+
+.curry3{
+    width: 900px;
+    height: 450px;
+}
+
+.curry4{
+    width: 450px;
+    height: 600px;
+}
+
+.sa2{
+    width: 780px;
+    height: 580px;
+}
